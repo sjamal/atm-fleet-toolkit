@@ -1,0 +1,6 @@
+location_id,location_type,monthly_foot_traffic,conversion_rate,avg_surcharge,merchant_split
+LOC_001,bar_nightclub,12000,0.025,3.50,1.00
+LOC_002,convenience_store,25000,0.007,3.00,1.00
+LOC_003,quiet_retail,4000,0.005,2.75,0.75
+LOC_004,hotel_lobby,8000,0.015,3.75,1.25
+LOC_005,festival_grounds,45000,0.012,4.50,1.50
