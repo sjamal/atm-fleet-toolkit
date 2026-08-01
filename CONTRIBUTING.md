@@ -33,7 +33,7 @@ cp .env.example .env         # no secrets required today, but keep the conventio
 ## Running tests
 
 ```bash
-pytest tests/ -v
+python -m pytest tests/ -v
 ```
 
 All new behavior should come with test coverage. CI (`.github/workflows/ci.yml`)
@@ -63,7 +63,7 @@ need one.
 
 1. Branch from `develop`.
 2. Make your change with tests.
-3. Ensure `pytest tests/ -v` passes locally.
+3. Ensure `python -m pytest tests/ -v` passes locally.
 4. Open a PR against `develop` using the PR template — fill out the checklist.
 5. Squash-merge once approved.
 

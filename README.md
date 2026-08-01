@@ -87,7 +87,7 @@ python examples/quickstart_demo.py
 Validate module logic, cash flow math, and risk models using `pytest`:
 
 ```bash
-pytest tests/ -v
+python -m pytest tests/ -v
 ```
 
 ---

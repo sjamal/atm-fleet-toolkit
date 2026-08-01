@@ -16,7 +16,7 @@ Closes #
 ## Checklist
 
 - [ ] Target branch is `develop` (not `main`)
-- [ ] `pytest tests/ -v` passes locally
+- [ ] `python -m pytest tests/ -v` passes locally
 - [ ] Added/updated tests for new behavior
 - [ ] Updated README/docs if behavior or usage changed
 - [ ] No secrets, credentials, or private data included
