@@ -3,6 +3,14 @@ Executable Quickstart Demonstration Script.
 Run via: python examples/quickstart_demo.py
 """
 
+import os
+import sys
+
+# Ensure the repo root (parent of this examples/ dir) is on sys.path so this
+# script works when run directly (python examples/quickstart_demo.py), not
+# just via `python -m`.
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from atm_toolkit import (
     SingleMachineModel,
     MonteCarloSimulator,
